@@ -1,6 +1,6 @@
 # iTP-AGN-XGB
 
-[English](README.md)
+[English](README.md) | 简体中文
 
 ## 项目简介
 
@@ -55,20 +55,3 @@ AGVTSLAGTAA
 - `--model`：模型类型，可选 `xgb` 或 `soft_voting`。
 - `--n_models`：软投票基学习器数量，默认 `5`。
 - `--output`：预测结果 CSV 保存路径，默认 `predictions.csv`。
-
-## 项目结构
-
-```text
-iTP-AGN-XGB/
-├── README.md
-├── README.zh-CN.md
-├── README.en.md
-├── requirements.txt
-├── .gitignore
-├── Exampledata/
-│   ├── train.fa
-│   └── test.fa
-├── preprocessing/
-├── src/
-└── main.py
-```

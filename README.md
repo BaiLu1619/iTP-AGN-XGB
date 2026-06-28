@@ -1,6 +1,6 @@
 # iTP-AGN-XGB
 
-[中文](README.zh-CN.md)
+English | [简体中文](README.zh.md)
 
 ## Overview
 
@@ -55,20 +55,3 @@ AGVTSLAGTAA
 - `--model`: `xgb` or `soft_voting`.
 - `--n_models`: number of base learners for soft voting, default `5`.
 - `--output`: prediction CSV path, default `predictions.csv`.
-
-## Project Layout
-
-```text
-iTP-AGN-XGB/
-├── README.md
-├── README.zh-CN.md
-├── requirements.txt
-├── .gitignore
-├── Exampledata/
-│   ├── train.fa
-│   └── test.fa
-├── preprocessing/
-├── src/
-└── main.py
-```
-
