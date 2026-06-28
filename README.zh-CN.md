@@ -1,6 +1,6 @@
 # iTP-AGN-XGB
 
-[English](README.en.md)
+[English](README.md)
 
 ## 项目简介
 
@@ -72,4 +72,3 @@ iTP-AGN-XGB/
 ├── src/
 └── main.py
 ```
-
