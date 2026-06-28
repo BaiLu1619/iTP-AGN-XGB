@@ -1,0 +1,21 @@
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+*.log
+predictions.csv
+*.joblib
+*.pkl
+
+# Large/reference data not needed for the minimal GitHub release.
+dataset/
+iLearnPlus/
+
+# Local Codex/agent metadata.
+.codex/
+.agents/
